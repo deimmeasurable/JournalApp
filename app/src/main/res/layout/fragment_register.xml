@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".auth.ui.Register"
+    android:orientation ="vertical"
+    android:gravity="center"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+
+
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:text="@string/register"
+        android:textStyle="bold"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <EditText
+        android:id="@+id/firstNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:textAlignment="center"
+        android:hint="firstName"
+        android:inputType="textEmailAddress"
+        android:paddingTop="10dp"
+        android:minHeight="56dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/colored_border"
+        />
+    <EditText
+        android:id="@+id/lastNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:textAlignment="center"
+        android:hint=" lastName"
+        android:inputType="textEmailAddress"
+        android:paddingTop="10dp"
+        android:minHeight="56dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/colored_border"
+        />
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:textAlignment="center"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:paddingTop="10dp"
+        android:minHeight="56dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/colored_border"
+        />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:textAlignment="center"
+        android:background="@drawable/colored_border"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:paddingTop="15dp"
+        android:minHeight="56dp"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/login_btn"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:textSize="20sp"
+        android:text="Register"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:id="@+id/login_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Already Registered? Login"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+</LinearLayout>
