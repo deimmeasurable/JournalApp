@@ -5,7 +5,9 @@
       <map>
         <entry key="app/src/main/res/drawable/colored_border.xml" value="0.298" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.328125" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.328125" />
         <entry key="app/src/main/res/layout/fragment_login.xml" value="0.328125" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.328125" />
         <entry key="app/src/main/res/layout/fragment_register.xml" value="0.328125" />
       </map>
     </option>
